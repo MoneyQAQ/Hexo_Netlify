@@ -161,10 +161,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -205,9 +205,9 @@ social_icons:
 
 # Blog rolls
 links_icon: globe
-links_title: 神奇的链接
-#links_layout: block
-links_layout: inline
+links_title: 神奇的链接(们)
+links_layout: block
+#links_layout: inline
 links:
   😆 网易云音乐 😆: https://music.163.com/#/user/home?id=10083315
   获取 Elon Musk 的最新语录: https://elonmuskquotes.org/
@@ -378,7 +378,7 @@ android_chrome_color: "#222"
 #   enabled: If true, will enable custom logo
 #   image: Images's url, e.g. /uploads/custom-logo.jpg
 custom_logo:
-  enabled: true
+  enabled: false
   image: /images/moneyqaq_logo.png
 
 # Code Highlight theme
@@ -434,7 +434,7 @@ font:
   logo:
     external: true
     family: Reem Kufi
-    size: 100
+    size: 40
 
   # Font settings for <code> and code blocks.
   codes:
@@ -623,14 +623,14 @@ needmoreshare2:
       iconStyle: default
       boxForm: horizontal
       position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook,GooglePlus,Tumblr
+      networks: Weibo,Douban,QQZone,Twitter,Facebook,GooglePlus,Tumblr
   float:
     enable: true
     options:
       iconStyle: box
       boxForm: vertical
       position: middleRight
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook,GooglePlus,Tumblr
+      networks: Weibo,Douban,QQZone,Twitter,Facebook,GooglePlus,Tumblr
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters
