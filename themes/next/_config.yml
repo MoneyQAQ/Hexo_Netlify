@@ -66,11 +66,11 @@ footer:
   icon:
     # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons/
     # `heart` is recommended with animation in red (#ff0000).
-    name: user
+    name: dollar
     # If you want to animate the icon, set it to true.
-    animated: false
+    animated: true
     # Change the color of icon, using Hex Code.
-    color: "#808080"
+    color: "#5f9341"
 
   # If not defined, `author` from Hexo main config will be used.
   copyright:
@@ -161,10 +161,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -204,11 +204,14 @@ social_icons:
 #github_banner: https://github.com/yourname || Follow me on GitHub
 
 # Blog rolls
-links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
+links_icon: globe
+links_title: 神奇的链接
+#links_layout: block
+links_layout: inline
 links:
+  😆 网易云音乐 😆: https://music.163.com/#/user/home?id=10083315
+  获取 Elon Musk 的最新语录: https://elonmuskquotes.org/
+  尼古拉·特斯拉：发明了现代世界的人: http://www.bilibili.com/video/av6211226/
   #Title: http://example.com
 
 # Sidebar Avatar
@@ -256,9 +259,9 @@ sidebar:
   # Back to top in sidebar.
   b2t: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
   # Click any blank part of the page to close sidebar (only for Muse | Mist).
   dimmer: false
 
@@ -397,10 +400,10 @@ cheers_enabled: true
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
-  # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
-  host:
+  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
+  host: https://fonts.googleapis.com 
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -410,28 +413,28 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Lato
-    size:
+    family: Noto Serif SC
+    size: 
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
   # Fallback to `global` font settings.
   headings:
     external: true
     family:
-    size:
+    size: 
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: 
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
-    size:
+    family: Reem Kufi
+    size: 100
 
   # Font settings for <code> and code blocks.
   codes:
@@ -613,21 +616,21 @@ gitalk:
 # Weibo,Wechat,Douban,QQZone,Twitter,Linkedin,Mailto,Reddit,Delicious,StumbleUpon,Pinterest,Facebook,GooglePlus,
 # Slashdot,Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2:
-  enable: false
+  enable: true
   postbottom:
     enable: false
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
       position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook,GooglePlus,Tumblr
   float:
-    enable: false
+    enable: true
     options:
       iconStyle: box
-      boxForm: horizontal
+      boxForm: vertical
       position: middleRight
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook,GooglePlus,Tumblr
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters

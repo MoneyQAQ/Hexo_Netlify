@@ -1,6 +1,6 @@
 ---
 title : "一键安装SS+BBR科学上网"
-date  : "2018-07-02T03:06:20Z"
+date  : "2018-08-02T03:06:20Z"
 draft : false
 ---
 
@@ -10,7 +10,7 @@ draft : false
 
 
 
-### 搭建 Shadowsocks 服务器
+## 搭建 Shadowsocks 服务器
 
 #### 下载 Shadowsocks
 
@@ -64,7 +64,7 @@ ss-fly/ss-fly.sh -uninstall
 
 
 
-### 一键开启 BBR
+## 一键开启 BBR
 
 BBR是 Google 开源的一套内核加速算法，装就对了。使用如下代码
 

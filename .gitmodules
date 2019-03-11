@@ -10,3 +10,6 @@
 [submodule "themes/next/source/lib/canvas-ribbon"]
 	path = themes/next/source/lib/canvas-ribbon
 	url = https://github.com/theme-next/theme-next-canvas-ribbon
+[submodule "themes/next/source/lib/needsharebutton"]
+	path = themes/next/source/lib/needsharebutton
+	url = https://github.com/theme-next/theme-next-needmoreshare2
