@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Money QAQ
+title:
 subtitle:
 description:
 keywords:
@@ -41,6 +41,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+auto_spacing: true
 highlight:
   enable: true
   line_number: true
@@ -53,7 +54,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 3
   order_by: -date
   
 # Category & Tag
